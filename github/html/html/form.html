@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+        }
+        form {
+            width: 400px;
+            margin: 30px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin-top: 12px;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        .inline {
+            width: auto;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+
+<form>
+    <h2>Registration Form</h2>
+
+    <!-- Text -->
+    <label>Text</label>
+    <input type="text" placeholder="Enter your name">
+
+    <!-- Number -->
+    <label>Number</label>
+    <input type="number" placeholder="Enter your age">
+
+    <!-- Password -->
+    <label>Password</label>
+    <input type="password" placeholder="Enter password">
+
+    <!-- Email -->
+    <label>Email</label>
+    <input type="email" placeholder="Enter email address">
+
+    <!-- Date -->
+    <label>Date</label>
+    <input type="date" placeholder="Select date">
+
+    <!-- Tel -->
+    <label>Telephone</label>
+    <input type="tel" placeholder="Enter mobile number">
+
+    <!-- File -->
+    <label>File</label>
+    <input type="file" placeholder="Choose file">
+
+    <!-- Range -->
+    <label>Range</label>
+    <input type="range">
+
+    <!-- Color -->
+    <label>Color</label>
+    <input type="color">
+
+    <!-- Checkbox -->
+    <label>
+        <input type="checkbox" class="inline"> I agree to terms
+    </label>
+
+    <!-- Radio -->
+    <label>Gender</label>
+    <input type="radio" name="gender" class="inline"> Male
+    <input type="radio" name="gender" class="inline"> Female
+
+    <!-- Textarea -->
+    <label>Textarea</label>
+    <textarea rows="4" placeholder="Enter your message"></textarea>
+
+    <!-- Options / Select -->
+    <label>Select Option</label>
+    <select>
+        <option value="">Choose an option</option>
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+    </select>
+
+    <button type="submit">Submit</button>
+</form>
+
+
+</body>
+</html>
